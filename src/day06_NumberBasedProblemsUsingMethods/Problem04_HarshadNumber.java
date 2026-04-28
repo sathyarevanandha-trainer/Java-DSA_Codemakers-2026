@@ -21,15 +21,13 @@ public class Problem04_HarshadNumber {
 
     }
 
-    static int sum_of_digits(int n)
-    {
-        int sum=0,rem;
+    static int sum_of_digits(int n) {
+        int sum = 0, rem;
 
-        while(n>0)
-        {
-            rem=n%10;
-            sum=sum+rem;
-            n=n/10;
+        while (n > 0) {
+            rem = n % 10;
+            sum = sum + rem;
+            n = n / 10;
         }
 
         return sum;
